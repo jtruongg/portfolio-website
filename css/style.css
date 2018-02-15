@@ -1,0 +1,62 @@
+body {
+	font-family: 'Oxygen', 'sans-serif';
+	font-size: 16pt;
+	Line-height: 1.6;
+}
+
+h1 {
+	font-size: 30pt;
+}
+
+h2 {
+	font-size: 24pt;
+}
+
+h3 {
+	font-size: 18pt;
+}
+
+div {
+	padding: 10px 5px 15px 5px; /*top, right, bottom, left*/
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 15px;
+	padding-left: 5px;
+}
+
+a {
+	color: #0BA8D0;
+}
+
+a:visited {
+	color: #4A90E2;
+}
+
+a:hover,
+a:focus {
+	text-decoration: none;
+}
+
+a:active {
+	color: #D0021B;
+}
+
+button {
+	background-color: #0BA8D0;
+	font-size: 16px;
+	color: white;
+	padding: 10px;
+	border-radius: 3px;
+	font-family: inherit;
+	border-bottom: 2px solid #000000;
+}
+
+button:hover,
+button:focus {
+	cursor: pointer;
+	background-color: rgba(11, 168, 208, 0.8);
+}
+
+.button-secondary {
+	background-color: #C3F3FF;
+}
